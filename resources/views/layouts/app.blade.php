@@ -9,10 +9,15 @@
 <body>
 
 <nav style="padding: 10px; border-bottom: 1px solid #ddd;">
+
     <a href="{{ route('home') }}">{{ __('ui.home') }}</a> |
-    <a href="{{ route('client.index') }}">{{ __('ui.client') }}</a> |
-    <a href="{{ route('employee.index') }}">{{ __('ui.employee') }}</a> |
-    <a href="{{ route('admin.dashboard') }}">{{ __('ui.admin') }}</a>
+
+    <a href="{{ route('client.conferences.index') }}">{{ __('ui.client_subsystem') }}</a> |
+
+    <a href="{{ route('employee.conferences.index') }}">{{ __('ui.employee_subsystem') }}</a> |
+
+    <a href="{{ route('admin.dashboard') }}">{{ __('ui.admin_subsystem') }}</a>
+
 
     <span style="float: right;">
         {{ __('ui.fake_user') }} |
