@@ -24,5 +24,11 @@ return [
     'conferences_list_placeholder' => 'Čia bus konferencijų sąrašas.',
 
     'fake_user' => 'John Doe',
+    'edit' => 'Redaguoti',
+    'first_name' => 'Vardas',
+    'last_name' => 'Pavardė',
+    'email' => 'El. paštas',
+    'save' => 'Išsaugoti',
+    'saved_success' => 'Pakeitimai išsaugoti.'
 ];
 

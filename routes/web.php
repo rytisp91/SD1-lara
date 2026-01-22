@@ -27,3 +27,9 @@ Route::get('/admin', [DashboardController::class, 'index'])->name('admin.dashboa
 Route::get('/admin/users', [UserController::class, 'index'])->name('admin.users.index');
 
 Route::get('/admin/conferences', [ConferenceController::class, 'index'])->name('admin.conferences.index');
+
+Route::get('/admin/users', [UserController::class, 'index'])->name('admin.users.index');
+
+Route::get('/admin/users/{id}/edit', [UserController::class, 'edit'])->name('admin.users.edit');
+
+Route::post('/admin/users/{id}', [UserController::class, 'update'])->name('admin.users.update');
