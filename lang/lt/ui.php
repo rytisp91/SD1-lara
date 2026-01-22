@@ -6,29 +6,39 @@ return [
     'client' => 'Klientas',
     'employee' => 'Darbuotojas',
     'admin' => 'Administratorius',
-
     'logout' => 'Atsijungti',
-
     'home_title' => 'Pagrindinis puslapis',
     'student_info' => 'Vardas Pavardė, Grupė XXX',
-
     'client_subsystem' => 'Kliento posistemis',
     'employee_subsystem' => 'Darbuotojo posistemis',
     'admin_subsystem' => 'Administratoriaus posistemis',
-
     'admin_dashboard' => 'Admin posistemis',
     'user_management' => 'Naudotojų valdymas',
     'conference_management' => 'Konferencijų valdymas',
-
     'users_list_placeholder' => 'Čia bus naudotojų sąrašas.',
     'conferences_list_placeholder' => 'Čia bus konferencijų sąrašas.',
-
     'fake_user' => 'John Doe',
     'edit' => 'Redaguoti',
     'first_name' => 'Vardas',
     'last_name' => 'Pavardė',
     'email' => 'El. paštas',
     'save' => 'Išsaugoti',
-    'saved_success' => 'Pakeitimai išsaugoti.'
+    'saved_success' => 'Pakeitimai išsaugoti.',
+    'create' => 'Sukurti',
+    'delete' => 'Trinti',
+    'view' => 'Peržiūrėti',
+    'back' => 'Atgal',
+    'actions' => 'Veiksmai',
+    'title' => 'Pavadinimas',
+    'description' => 'Aprašymas',
+    'speakers' => 'Lektoriai',
+    'date' => 'Data',
+    'time' => 'Laikas',
+    'address' => 'Adresas',
+    'create_conference' => 'Sukurti konferenciją',
+    'edit_conference' => 'Redaguoti konferenciją',
+    'delete_confirm' => 'Ar tikrai norite trinti?',
+    'deleted_success' => 'Konferencija ištrinta.',
+    'cannot_delete_past_conference' => 'Negalima trinti įvykusios konferencijos.'
 ];
 
