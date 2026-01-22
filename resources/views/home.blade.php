@@ -1,16 +1,18 @@
 @extends('layouts.app')
 
-@section('title', 'Home')
+@section('title', __('ui.home'))
 
 @section('content')
-    <h1>Pagrindinis puslapis</h1>
+    <h1>{{ __('ui.home_title') }}</h1>
 
-    <p>Vardas Pavardė, Grupė XXX</p>
+    <p>{{ __('ui.student_info') }}</p>
 
     <ul>
-        <li><a href="{{ route('client.index') }}">Client subsystem</a></li>
-        <li><a href="{{ route('employee.index') }}">Employee subsystem</a></li>
-        <li><a href="{{ route('admin.dashboard') }}">Admin subsystem</a></li>
+        <li><a href="{{ route('client.index') }}">{{ __('ui.client_subsystem') }}</a></li>
+        <li><a href="{{ route('employee.index') }}">{{ __('ui.employee_subsystem') }}</a></li>
+        <li><a href="{{ route('admin.dashboard') }}">{{ __('ui.admin_subsystem') }}</a></li>
     </ul>
 @endsection
+
+
 

@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Client')
+@section('title', __('ui.client'))
 
 @section('content')
-    <h1>Client subsystem</h1>
+    <h1>{{__('ui.client_subsystem')}}</h1>
 @endsection
 

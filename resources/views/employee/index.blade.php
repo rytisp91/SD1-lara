@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Employee')
+@section('title', __('ui.employee'))
 
 @section('content')
-    <h1>Employee subsystem</h1>
+    <h1>{{__('ui.employee_subsystem')}}</h1>
 @endsection
 

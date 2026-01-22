@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
-@section('title', 'Admin - Conferences')
+@section('title', __('ui.conference_management'))
 
 @section('content')
-    <h1>Conference management</h1>
-    <p>Conference list will be here.</p>
+    <h1>{{__('ui.conference_management')}}</h1>
+    <p>{{__('ui.conferences_list_placeholder')}}</p>
 @endsection
 
