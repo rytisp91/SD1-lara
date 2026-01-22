@@ -6,8 +6,8 @@
     <h1>Admin subsystem</h1>
 
     <ul>
-        <li><a href="#">User management</a></li>
-        <li><a href="#">Conference management</a></li>
+        <li><a href="{{ route('admin.users.index') }}">User management</a></li>
+        <li><a href="{{ route('admin.conferences.index') }}">Conference management</a></li>
     </ul>
 @endsection
 
