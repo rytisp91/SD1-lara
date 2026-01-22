@@ -7,6 +7,9 @@ use App\Http\Controllers\ClientController;
 use App\Http\Controllers\EmployeeController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ClientConferenceController;
+use App\Http\Controllers\EmployeeConferenceController;
+
 
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
@@ -40,3 +43,14 @@ Route::get('/admin/conferences/{id}/edit', [ConferenceController::class, 'edit']
 Route::post('/admin/conferences/{id}', [ConferenceController::class, 'update'])->name('admin.conferences.update');
 
 Route::post('/admin/conferences/{id}/delete', [ConferenceController::class, 'destroy'])->name('admin.conferences.destroy');
+
+Route::get('/client/conferences', [ClientConferenceController::class, 'index'])->name('client.conferences.index');
+
+Route::get('/client/conferences/{id}', [ClientConferenceController::class, 'show'])->name('client.conferences.show');
+
+Route::post('/client/conferences/{id}/register', [ClientConferenceController::class, 'register'])->name('client.conferences.register');
+
+Route::get('/employee/conferences', [EmployeeConferenceController::class, 'index'])->name('employee.conferences.index');
+
+Route::get('/employee/conferences/{id}', [EmployeeConferenceController::class, 'show'])->name('employee.conferences.show');
+

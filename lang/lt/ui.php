@@ -39,6 +39,12 @@ return [
     'edit_conference' => 'Redaguoti konferenciją',
     'delete_confirm' => 'Ar tikrai norite trinti?',
     'deleted_success' => 'Konferencija ištrinta.',
-    'cannot_delete_past_conference' => 'Negalima trinti įvykusios konferencijos.'
+    'cannot_delete_past_conference' => 'Negalima trinti įvykusios konferencijos.',
+    'client_conferences' => 'Kliento konferencijos',
+    'employee_conferences' => 'Darbuotojo konferencijos',
+    'register' => 'Registruotis',
+    'registration_success' => 'Registracija sėkminga.',
+    'registered_clients' => 'Užsiregistravę klientai',
+    'name' => 'Vardas',
 ];
 
